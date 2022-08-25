@@ -1,0 +1,125 @@
+:root {
+    --button: #ff0000;
+    --main-background: #c4c4c4;
+    --background: #e5e5e5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9c9696;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 1430px;
+  }
+  .main .pay {
+    width: 30%;
+  }
+  .main .show {
+    width: 70%;
+  }
+  .main {
+    display: flex;
+  }
+  .main .show .menushow {
+    display: flex;
+  }
+  .main .pay .menupay {
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .main .pay .menupay span {
+    margin-left: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .main .pay {
+    background-color: var(--background);
+  }
+  .main .show {
+    background-color: var(--main-background);
+  }
+  .main .pay .bodypay {
+    margin-top: 40px;
+    padding: 60px;
+  }
+  .main .pay .bodypay h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .main .pay .bodypay p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: var(--text-description);
+  }
+  .main .pay .bodypay h1 {
+    margin-top: 20px;
+  }
+  .main .pay .bodypay button {
+    border: 0;
+    background-color: var(--button);
+    color: white;
+    padding: 20px 60px 20px 60px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .main .show .menushow {
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+  }
+  .main .show .menushow span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .main .show .menushow .search input {
+    border: 0;
+  }
+  .main .show .menushow .search {
+    background-color: white;
+    align-items: center;
+  }
+  .main .show .bodyshow .ampli {
+    margin-left: 100px;
+  }
+  .main .show .bodyshow .galeria {
+    margin-left: 80px;
+  }
+  .main .show .bodyshow .galeria img {
+    margin-left: 20px;
+  }
+  .main .show .bodyshow .galeria img:hover {
+  }
+  .footer {
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer h1 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+  .footer .about {
+    padding-left: 50px;
+    background-color: #000;
+    width: 20%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .footer .about img {
+    width: 50px;
+  }
+  .footer .about h1 {
+    color: #fff;
+  }
+  
